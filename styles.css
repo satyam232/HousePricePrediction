@@ -1,0 +1,51 @@
+
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.heading h1{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+
+#result {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.form label {
+    padding-left: 80px;
+    display: block; 
+}
+
+
+.form input,
+.form select {
+    width: 50%;
+}
+
+
+.form button {
+    grid-column: span 6; 
+}
